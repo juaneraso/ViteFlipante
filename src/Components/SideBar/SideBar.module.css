@@ -1,0 +1,77 @@
+.sidebar {
+  background-color: #000; /* Color de fondo de la barra lateral */
+  color: #fff; /* Color de texto */
+  width: 200px; /* Ancho de la barra lateral */
+  height: 100%; /* Altura completa */
+  position: fixed; /* Fijar la posición para que se mantenga visible */
+  top: 0; /* Arriba */
+  left: 0; /* Izquierda */
+  display: flex; /* Utilizar flexbox */
+  flex-direction: column; /* Apilar elementos verticalmente */
+  align-items: center;
+  justify-content: center;
+  padding: 20px; /* Espaciado interior */
+}
+
+/* Estilos para los elementos de la lista */
+.sidebar ul {
+  list-style: none; /* Quitar viñetas de la lista */
+  padding: 0;
+  flex-grow: 0.95; /* Distribuir espacio verticalmente uniformemente */
+}
+
+.sidebar ul li {
+  margin-bottom: 18px; /* Espacio entre elementos de la lista */
+  text-transform: uppercase;
+  line-height: 18px;
+}
+
+/* Estilos para los enlaces */
+.sidebar ul li a {
+  text-decoration: none; /* Quitar subrayado de enlaces */
+  color: #fff; /* Color del texto de enlaces */
+  transition: color 0.3s; /* Transición de color al pasar el mouse */
+}
+
+.sidebar ul li a:hover {
+  color: #f948ff; /* Cambiar el color al pasar el mouse */
+}
+.logo {
+  margin: auto;
+  margin-bottom: 50px;
+  width: 100px;
+  display: block;
+  line-height: 15px;
+  font-size: 12px;
+  padding: 10px 3px;
+  border: solid 1px #fff;
+}
+
+.logo h2 {
+  color: #fff;
+  letter-spacing: -1px;
+}
+.logo span {
+  letter-spacing: 0;
+  color: #fff;
+}
+.backButton {
+  position: absolute;
+  bottom: 70px;
+  left: 90px;
+  border-radius: 50px;
+
+  width: 60px;
+  height: 60px;
+  padding: 0;
+  font-size: 40px;
+  line-height: 0;
+  letter-spacing: 0;
+
+  background-color: #fff;
+  color: #000;
+}
+
+/* .logout {
+  margin-top: 60vh;
+} */

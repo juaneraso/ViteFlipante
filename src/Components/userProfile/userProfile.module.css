@@ -1,0 +1,71 @@
+.backButton {
+  position: fixed;
+  top: 70px;
+  left: 20px;
+  border-radius: 50px;
+
+  width: 60px;
+  height: 60px;
+  padding: 0;
+  font-size: 40px;
+  line-height: 0;
+  letter-spacing: 0;
+}
+.userContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 120px;
+}
+.userForm {
+  width: 300px;
+  text-align: left;
+}
+.userForm label {
+  font-weight: 600;
+}
+.userForm input {
+  width: 300px;
+  height: 25px;
+  margin: 2px 0 25px 0;
+}
+.updateButton {
+  width: 322px;
+}
+
+.userImage img {
+  height: 250px;
+  width: 250px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 500px;
+  border: solid 2px #000;
+  margin: 20px 0;
+}
+
+/* HISTORIAL DE COMPRAS */
+.purchaseContainer {
+  width: 60vw;
+  height: 60vh;
+  border: solid 1px #ddd;
+  padding: 30px;
+  margin-left: 250px;
+
+  overflow-y: scroll;
+}
+.purchaseTitle {
+  margin: 0 0 50px 250px;
+}
+.purchaseContainer p {
+  text-align: left;
+  margin: 50px 0;
+}
+.singlePurchase {
+  border-bottom: solid 1px #ddd;
+}
+
+/* FAVORITOS */
+.favoritesContainer h2 {
+  margin: 20px 0;
+}

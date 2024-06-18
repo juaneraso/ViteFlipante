@@ -1,0 +1,97 @@
+.catalogueSection {
+  margin-top: 50px;
+}
+
+.catalogueSectionP {
+  margin-bottom: 50px;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+/* NavBar.module.css */
+
+.navBarWithSearch {
+  display: flex;
+  align-items: center; /* Centra verticalmente los elementos */
+}
+
+.spaceBetween {
+  width: 16px; /* Puedes ajustar el valor según el espacio deseado */
+}
+
+.filterButton {
+  position: absolute;
+  right: 10px;
+}
+.paginationButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  margin: 30px 0 50px 0;
+}
+.paginationButtons button {
+  border: solid 1px #000;
+  border-radius: 2px;
+  background-color: #fff;
+  color: #000;
+
+  font-size: 14px;
+  font-weight: 700;
+
+  width: 40px;
+  height: 40px;
+
+  padding: 0;
+  margin-right: 10px;
+}
+.currentPageButton:hover {
+  background: #000;
+}
+.currentPageButton:focus {
+  outline: #e100ff;
+  color: #fff;
+  background-color: #000;
+}
+.paginationButtons button:first-child,
+.paginationButtons button:last-of-type {
+  font-size: 16px;
+  padding: 3px 0 0 5px;
+}
+
+.paginationButtons button:last-of-type {
+  padding-right: 3px;
+}
+
+.paginationButtons button[disabled] {
+  background-color: #ccc; /* Cambia el color de fondo a uno gris o el que desees */
+  color: #999; /* Cambia el color del texto a uno más claro si lo deseas */
+  cursor: not-allowed; /* Cambia el cursor del mouse a "no permitido" */
+  pointer-events: none; /* Deshabilita los eventos de clic en el botón */
+}
+
+/* Estilo para el botón deshabilitado de página actual */
+.paginationButtons button[disabled].currentPageButton {
+  background-color: #999; /* Cambia el color de fondo del botón de página actual deshabilitado */
+  color: #fff; /* Cambia el color del texto del botón de página actual deshabilitadoasd */
+}
+
+.paginationButtons button {
+  border: solid 1px #000;
+  border-radius: 2px;
+  background-color: #fff;
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  margin-right: 10px;
+}
+
+/* Estilo para el botón de página actual */
+.paginationButtons button.currentPageButton {
+  background: #000; /* Color de fondo cuando es la página actual */
+  color: #fff; /* Color del texto cuando es la página actual */
+}

@@ -1,0 +1,93 @@
+.logo {
+  display: block;
+  line-height: 15px;
+  font-size: 12px;
+  padding: 3px;
+  border: solid 1px #000;
+}
+
+.logo h2 {
+  color: #000;
+  letter-spacing: -1px;
+}
+
+.logo span {
+  letter-spacing: 0;
+  color: #000;
+}
+
+.logo:hover {
+  border: solid 1px #c300ff;
+}
+.logo h2:hover,
+.logo span:hover {
+  color: #c300ff; /* Cambiar el color al pasar el mouse */
+}
+
+.link {
+  margin-left: 20px;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between; /* Ajusta para que los elementos se separen uniformemente */
+  align-items: center;
+}
+
+.navBar a {
+  text-decoration: none;
+  color: black;
+}
+
+.navContainer {
+  z-index: 1000;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.access {
+  text-decoration: none;
+  font-size: 22px;
+  line-height: 0;
+}
+
+.image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.userIcon {
+  font-size: 22px;
+  line-height: 0;
+}
+
+.userImage {
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  border: solid 1px #000;
+  margin-top: 5px;
+}
+
+.logOutIcon {
+  text-decoration: none;
+  font-size: 22px;
+  line-height: 0;
+  margin-left: 16px;
+}
+
+.logOutGoogleIcon {
+  text-decoration: none;
+  font-size: 22px;
+  line-height: 0;
+  margin-left: 16px;
+  margin-bottom: 4px;
+}
