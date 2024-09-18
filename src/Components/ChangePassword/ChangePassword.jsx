@@ -89,7 +89,7 @@ const ChangePassword = () => {
 
       if (response.status === 200) {
         // Cambio de contraseña exitoso
-        console.log("Cambio de contraseña exitoso.");
+        //console.log("Cambio de contraseña exitoso.");
         MySwal.fire({
           icon: "success",
           title: "Éxito",

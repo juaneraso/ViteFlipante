@@ -119,7 +119,7 @@ const Home = () => {
       });
   }, []);
 
-   console.log(products);
+  // console.log(products);
   return (
     <div>
       <Hero />

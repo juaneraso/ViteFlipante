@@ -21,7 +21,7 @@ import Swal from "sweetalert2";
 
 const back = import.meta.env.VITE_APP_BACK;
 
-console.log(back)
+//console.log(back)
 
 export const getProducts = () => {
   return async (dispatch) => {
